@@ -29,7 +29,7 @@
     "prepare": "yarn build",
     "size": "size-limit",
     "analyze": "size-limit --why",
-    "release": "yarn build && auto shipit"
+    "release": "npm run build && auto shipit"
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^4.10.1",
